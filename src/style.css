@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #42b883;
+    border-radius: 6px;
+    position: relative;
+}
+
+.SignUp h1{
+    margin: 16px 0;
+    color: #42b883;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.SignUp h1::before{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    bottom: -1%;
+    left: 1%;
+    border-radius: 20px;
+    background-color: #42b883;
+}
+
+.SignUp .input-field{
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.SignUp .input-field h2{
+    font-size: 16px;
+    color: #42b883;
+    font-weight: 400;
+}
+
+.SignUp .input-field input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #42b883;
+    color: #333;
+    padding-left: 18px;
+}
+
+.SignUp .input-field i{
+    position: absolute;
+    font-size: 14px;
+    color: #42b883;
+    left: 0;
+    top: 30px;
+}
+.rem-forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rem-forget .rem{
+    display: flex;
+    align-items: center;
+}
+
+.rem-forget .rem input{
+    accent-color: #42b883;
+    margin-right: 2px;
+}
+
+.rem-forget .rem input label{
+    color: #333;
+    font-size: 13px;
+}
+
+.rem-forget a{
+    font-size: 12px;
+    color: #42b883;
+}
+
+.input-field button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 0;
+    color: #fff;
+    background-color: #42b883;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.signin p{
+    color: #333;
+    font-size: 16px;
+}
+
+.signin a{
+    font-size: 15px;
+    color: #42b883;
+}
+
+.SignUp{
+    background-color: #fff;
+    transition: all .4s linear;
+}
+
+.SignIn-up{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: -1 ;
+}
+.OpenSignIn{
+    z-index: 2;
+}

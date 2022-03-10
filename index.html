@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/style.css">
+
+    <title>LogIn / SignUp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="SignUp SignUp-in">
+
+            <h1>Register Now</h1>
+
+            <div class="input-field">
+                <h2>Email</h2>
+                <input type="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="input-field">
+                <h2>Password</h2>
+                <input type="password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="input-field">
+                <h2>Re-Type Password</h2>
+                <input type="password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="input-field">
+                <button>Register</button>
+            </div>
+
+            <div class="signin">
+                <p>Already have an account ? </p>
+                <a href="#" id="signin">Sign In Now</a>
+            </div>
+        </div>
+
+        <div class="SignUp SignIn-up">
+
+            <h1>Sign In</h1>
+
+            <div class="input-field">
+                <h2>Email</h2>
+                <input type="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="input-field">
+                <h2>Password</h2>
+                <input type="password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="rem-forget">
+                <div class="rem">
+                    <input type="checkbox" name="rempass">
+                    <label for="rempass">Remmber Me</label>
+                </div>
+
+                <a href="#">Forget password?</a>
+            </div>
+
+            <div class="input-field">
+                <button>Login</button>
+            </div>
+
+            <div class="signin">
+                <p>Don't have an account ? </p>
+                <a href="#" id="reg">Register Now</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./src/app.js"></script>
+</body>
+</html>
